@@ -1,6 +1,6 @@
 # 
 
-## `Capstone Project Snake Game`
+## `Capstone Project: Snake Game`
 
 ## Overview
 
@@ -52,7 +52,7 @@ The game board launches after the user provides a valid level and the user is ab
 
 ## Basic Build Instructions
 
-1. Clone this repo.
+1. Clone this repo using `https://github.com/vrushabhdesai/Capstone_Project_Snake_Game.git`
 2. Make a build directory in the top level directory: `mkdir build && cd build`
 3. Compile: `cmake .. && make`
 4. Run it: `./snakeGame`.
