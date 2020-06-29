@@ -13,14 +13,13 @@ Once the game starts it creates the `Game`, `Controller`, and `Snake` objects, t
 
 When the game is launched, the user is first greeted with a warm welcome message and also the game detectes system platform which the user is running the game on.
 
-Then the user is asked for the select a `level`. There are three different levels which user can start with: Easy (E), Medium (M) and Hard (H). Once the user has selected a particular level the `snake` speed is set to a particular  value and game continues.
+Then the user is asked for the select a `level`. There are three different levels which user can start with: Easy (E), Medium (M) and Hard (H). Once the user has selected a particular level the `snake` speed is set to a particular  value and game continues. The game board launches after the user provides a valid level and the user is able to play the game by moving the snake around with the arrow keys.
 
 Following image shows the output on the terminal, when the game is launched in all different levels.  
 
 <img src = "results/output.png"/>
 
-The game board launches after the user provides a valid level and the user is able to play the game by moving the snake around with the arrow keys.
-<img src = "results/gameBoard.png"/>
+
 
 ## Results
 
@@ -66,9 +65,3 @@ The game board launches after the user provides a valid level and the user is ab
 |Classes use appropriate access specifiers for class members.|The class uses member initialization lists and the member functions getPlatform and printPlatform to fetch and printout the user's detected system platform.|
 |Classes abstract implementation details from their interfaces|The [C++ Guide by Google](https://google.github.io/styleguide/cppguide.html#Function_Comments) was used to for any needed documentation. An example can be found within `game.h` (Platform class member funtions) above the function declaration of `getPlatform` where a simple comment is used to describe what the function does.|
 |The project makes use of references in function declarations|Project definies the function where references in declaraton are used: HeadDistanceTravel() in snake.h.|
-
-
-
-
-
-
