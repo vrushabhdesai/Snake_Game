@@ -1,6 +1,5 @@
-# 
 
-## `Capstone Project: Snake Game`
+# Capstone Project: Snake Game
 
 ## Overview
 
@@ -61,17 +60,11 @@ The game board launches after the user provides a valid level and the user is ab
 
 |Criteria| Description|
 |--------|------------|
-
 |Loops, Functions,I/O |The user has the option to select the starting level which sets the speed of the snake. A Game class member function `UpdateStartSpeed` is called and this member function encapsulates the Game's private data member `snake` and calls the Snake class member function `SetStartingSpeed`.|
-
 |The project accepts user input and processes the input| User Main Manu is the interactive interface with the game. GameManger.h class|
-
 |The project uses Object Oriented Programming techniques.|To meet this requirement, a `Platform` class was created in `game.h` to hold information about the system platform.|
-
 |Classes use appropriate access specifiers for class members.|The class uses member initialization lists and the member functions getPlatform and printPlatform to fetch and printout the user's detected system platform.|
-
 |Classes abstract implementation details from their interfaces|The [C++ Guide by Google](https://google.github.io/styleguide/cppguide.html#Function_Comments) was used to for any needed documentation. An example can be found within `game.h` (Platform class member funtions) above the function declaration of `getPlatform` where a simple comment is used to describe what the function does.|
-
 |The project makes use of references in function declarations|Project definies the function where references in declaraton are used: HeadDistanceTravel() in snake.h.|
 
 
