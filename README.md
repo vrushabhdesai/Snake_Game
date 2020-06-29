@@ -1,6 +1,6 @@
 # 
 
-## `Capstone Snake Game`
+## `Capstone Project Snake Game`
 
 ## Overview
 
